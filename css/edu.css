@@ -41,6 +41,10 @@
 }
 /*____________________Practic____________________*/
 
+.practice .card {
+    min-height: 250px;
+}
+
 .practice .card a {
     color: var(--primary-color);
     text-decoration: none;
