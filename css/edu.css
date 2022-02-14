@@ -21,11 +21,13 @@
     color: #fff;
 }
 
-.edu-page .flex h2 {
+.edu-page .flex h2,
+.practice .grid h2 {
     border-bottom: 2px solid var(--primary-color);
 }
 
-.edu-page .flex li {
+.edu-page .flex li,
+.practice .grid li {
     border-bottom: 1px solid var(--primary-color);
     margin: 10px 0;
 }
@@ -37,4 +39,14 @@
 
 .edu-page .flex {
     flex-wrap: wrap;
+}
+/*____________________Practic____________________*/
+
+.practice .card a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.practice .grid {
+    grid-template-columns: 1fr;
 }
