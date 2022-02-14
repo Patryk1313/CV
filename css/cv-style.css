@@ -5,33 +5,33 @@
     --font-color-lift: rgba(255,255,255,0.5);
 }
 /*____________________Navbar____________________*/
-nav {
+.navbar nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 50px 0;
-
+    padding: 30px 0;
+    transform: 2s;
 }
 
-nav li {
+.navbar nav li {
     padding: 0 30px;
 }
 
-nav li a {
+.navbar nav li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-.nav-ul {
+.navbar .nav-ul {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
 }
 
-.nav ul li a {
+.navbar .nav ul li a {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -39,11 +39,18 @@ nav li a {
 
 .btnMenu {
     display: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    transition: 0.6s;
+}
+
+.btnMenu:hover {
+    transform: scale(0.9);
 }
 
 /*____________________Show My Self____________________*/
 .mySelf {
-    height: 400px;
+    height: 450px;
     position: relative;
 }
 
@@ -76,8 +83,8 @@ nav li a {
 }
 
 .mySelf .grid {
-    grid-template-columns: 2fr 1fr;
     overflow: visible;
+    min-height: 350px;
 }
 /*____________________About Me____________________*/
 
@@ -208,28 +215,32 @@ nav li a {
 /* Tablets & under */
 @media (max-width: 768px) {
 
-    .nav-ul {
+    .navbar .nav-ul {
         display: none;
         flex-direction: column;
         width: 100%;
     }
     
-    .nav-ul.show {
+    .navbar .nav-ul.show {
         display: flex;
         margin: 20px;
     }
 
-    .nav-ul.show li{
+    .navbar .nav-ul.show li{
         margin: 20px 0;
     }
 
-    .nav-ul.show li:hover{
+    .navbar .nav-ul.show li:hover{
+        margin: 20px 0;
+    }
+
+    .navbar .nav-ul.show li:hover{
         border-radius: 5px;
         background-color: #ffaa018c;
         margin: 20px 0;
     }
     
-    .nav-ul.show a{
+    .navbar .nav-ul.show a{
         color: #fff;
         text-decoration: none;
         padding: 0;
@@ -240,7 +251,7 @@ nav li a {
     }
 
     .mySelf {
-        height: auto;
+        height: 420px;
     }
 
     .mySelf .grid h1,
@@ -273,5 +284,4 @@ nav li a {
 /* mobile */
 
 @media (max-width: 500px) {
-
 }
