@@ -12,6 +12,12 @@
 }
 
 .contact .social a {
+    color: #eee;
+    font-size: 40px;
+    margin: 0 20px;
+}
+
+.contact .social a:hover {
     color: #ffaa01;
     font-size: 40px;
     margin: 0 20px;
@@ -20,7 +26,7 @@
 .social a:visited,
 a:checked,
 a:active {
-    color: #ffaa01;
+    color: #333;
 }
 
 @media (max-width: 500px) {
