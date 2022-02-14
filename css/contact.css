@@ -8,7 +8,7 @@
 }
 
 .contact .grid input{
-    min-width: 300px;
+    width: 300px;
     border: none;
     background-color: transparent;
     font-size: 18px;
@@ -30,8 +30,11 @@
     cursor: pointer;
 }
 
-.coped {
-    color: rgb(48, 197, 48);
+.btn-copy i:hover {
+    color: #ffaa01;
+}
+
+.coped{
     height: 20px;
     width: 20px;
     margin-left: 20px;
@@ -40,8 +43,9 @@
     outline: none;
 }
 
-.coped i {
+.coped i{
     font-size: 20px;
+    color: #228b22;
 }
 
 .contact .card {
