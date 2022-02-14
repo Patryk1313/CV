@@ -7,6 +7,43 @@
     padding-top: 25px;
 }
 
+.contact .grid input{
+    min-width: 300px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    outline: none;
+    overflow: visible;
+}
+
+.btn-copy {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+
+.btn-copy i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.coped {
+    color: rgb(48, 197, 48);
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+
+.coped i {
+    font-size: 20px;
+}
+
 .contact .card {
     min-width: 400px;
 }
