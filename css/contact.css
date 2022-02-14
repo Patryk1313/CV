@@ -16,6 +16,12 @@
     overflow: visible;
 }
 
+.flex-end {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
 .btn-copy {
     height: 20px;
     width: 20px;
