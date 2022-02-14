@@ -1,0 +1,34 @@
+.contact {
+    width: auto;
+}
+
+.contact h1{
+    color: #fff;
+    padding-top: 25px;
+}
+
+.contact .card {
+    min-width: 400px;
+}
+
+.contact .social a {
+    color: #ffaa01;
+    font-size: 40px;
+    margin: 0 20px;
+}
+
+.social a:visited,
+a:checked,
+a:active {
+    color: #ffaa01;
+}
+
+@media (max-width: 500px) {
+    .contact .card {
+        min-width: 150px;
+    }
+
+    .contact {
+    padding: 10px;
+}
+}

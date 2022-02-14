@@ -1,0 +1,72 @@
+.skills .flex > *:first-child {
+    flex: 1 0 100%;
+}
+
+.skills .flex h1 {
+    color: #fff;
+}
+
+.skills .flex {
+    flex-wrap: wrap;
+}
+
+.skills .card {
+    max-width: 150px;
+    max-height: 150px;
+    text-align: center;
+    transition: transform 0.6s ease-out;
+
+}
+
+.skills .card:hover {
+    animation: line linear 0.6s ease-out;
+    transform: translateY(-15px);
+}
+
+/* Skills-list */
+.skill-list .flex {
+    flex-wrap: wrap;
+}
+
+.skill-list .language-lvl h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skill-list .language-lvl p {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.skill-list .card {
+    min-width: 250px;
+}
+
+/* Anothers */
+.anothres {
+    width: auto;
+}
+
+.anothers .grid h1{
+    color: #fff;
+}
+
+.anothres .card {
+    min-width: 400px;
+}
+
+.anothers .grid a {
+    color: #ffaa01;
+    font-size: 40px;
+    margin: 0 20px;
+}
+
+/* Media querys */
+
+/* Tablets & under */
+
+@media (max-width: 768px) {
+    .skill-list .flex {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,39 @@
+/*____________________VARIABLES____________________*/
+:root {
+    --primary-color: #FFaa01;
+    --bg-color: #121212;
+    --font-color-lift: rgba(255,255,255,0.5);
+}
+/*____________________Education____________________*/
+.edu-page {
+    height: auto;
+}
+
+.edu-page .card {
+    align-self: flex-start;
+    min-height: 250px;
+    min-width: 250px; 
+    text-align: center;
+}
+
+.edu-page .flex h1 {
+    color: #fff;
+}
+
+.edu-page .flex h2 {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.edu-page .flex li {
+    border-bottom: 1px solid var(--primary-color);
+    margin: 10px 0;
+}
+
+.edu-page .flex > *:first-child {
+    flex: 1 0 100%;
+    text-align: center;
+}
+
+.edu-page .flex {
+    flex-wrap: wrap;
+}
