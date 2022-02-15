@@ -77,7 +77,7 @@
 .mySelf p{
     font-size: 60px;
     font-weight: bold;
-    color: var(--primary-color);
+    color: #fff;
 }
 
 .mySelf h6 {
