@@ -74,6 +74,9 @@ a:active {
     color: #333;
 }
 
+/*____________________Media Querys____________________*/
+
+/*____________________Mobile____________________*/
 @media (max-width: 500px) {
     .contact .card {
         min-width: 150px;
@@ -81,5 +84,5 @@ a:active {
 
     .contact {
     padding: 10px;
-}
+    }
 }

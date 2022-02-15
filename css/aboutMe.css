@@ -4,6 +4,7 @@
     --bg-color: #121212;
     --font-color-lift: rgba(255,255,255,0.5);
 }
+
 /*____________________Navbar____________________*/
 .navbar nav {
     display: flex;
@@ -64,18 +65,19 @@
     left: 0;
     margin: 0 100px;
     transform: skew(-120deg);
+    border-radius: 100px;
     background-color: var(--primary-color);
 }
 
 .mySelf h4 {
-    font-size: 18px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
     text-align: left;
     font-weight: 300;
 }
 
 .mySelf p{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
     color: #fff;
 }
@@ -92,8 +94,8 @@
     overflow: visible;
     min-height: 350px;
 }
-/*____________________About Me____________________*/
 
+/*____________________About Me____________________*/
 .aboutMe {
     padding-top: 100px;
 }
@@ -120,6 +122,7 @@
     left: 0;
     margin: 0 100px;
     transform: skew(120deg);
+    border-radius: 100px;
     background-color: var(--primary-color);
 }
 
@@ -155,7 +158,6 @@
 }
 
 /*____________________Personal qualities____________________*/
-
 .personal-qual h2 {
     color: #fff;
 }
@@ -218,11 +220,17 @@
     text-align: center;
 }
 
-/* Media Querys */
+/*____________________Media Querys____________________*/
+@media (max-width: 1050px) {
+    .mySelf .flex h4 {
+        text-align: center;
+    }
+}
 
-/* Tablets & under */
+/*____________________Tablets & under____________________*/
 @media (max-width: 768px) {
 
+    /*____________________Navbar____________________*/
     .navbar .nav-ul {
         display: none;
         flex-direction: column;
@@ -258,15 +266,16 @@
         display: block;
     }
 
+    /*____________________Show My Self____________________*/
     .mySelf {
-        height: 420px;
+        height: 80vh;
     }
 
-    .mySelf .grid h1 {
-        font-size: 10px;
+    .mySelf .flex p {
+        font-size: 40px;
     }
 
-    .mySelf .grid h4 {
+    .mySelf .flex h4 {
         text-align: center;
     }
 
@@ -274,6 +283,7 @@
         justify-self: center;
     }
 
+    /*____________________Hobby____________________*/
     .grid,
     .hobby .grid {
         grid-template-columns: 1fr;
@@ -287,9 +297,4 @@
     .hobby .grid > *:first-child {
         grid-column: 1 / span 1;
     }
-}
-
-/* mobile */
-
-@media (max-width: 500px) {
 }

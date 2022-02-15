@@ -22,7 +22,7 @@ img {
     border-bottom: 2px solid var(--primary-color);
 }
 
-/* Untilities */
+/*____________________Untilities____________________*/
 
 .container {
     max-width: 1100px;
@@ -78,7 +78,7 @@ img {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Text size */
+/*____________________Text size____________________*/
 .lead {
     font-size: 20px;
 }
@@ -102,7 +102,7 @@ img {
 .text-center {
     text-align: center;
 }
-/* Padding */
+/*____________________Padding____________________*/
 
 .p1 {
     padding: 1rem;
@@ -136,7 +136,7 @@ img {
     padding: 4rem 0;
 }
 
-/* Marrgins */
+/*____________________Marrgins____________________*/
 
 .m1 {
     margin: 1rem;

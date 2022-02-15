@@ -23,7 +23,7 @@
     transform: translateY(-15px);
 }
 
-/* Skills-list */
+/*____________________Skills-list____________________*/
 .skill-list .flex {
     flex-wrap: wrap;
 }
@@ -42,7 +42,7 @@
     min-width: 250px;
 }
 
-/* Anothers */
+/*____________________Anothers____________________*/
 .anothres {
     width: auto;
 }
@@ -61,9 +61,9 @@
     margin: 0 20px;
 }
 
-/* Media querys */
+/*____________________Media Querys____________________*/
 
-/* Tablets & under */
+/*____________________Tablets & under____________________*/
 
 @media (max-width: 768px) {
     .skill-list .flex {

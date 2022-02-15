@@ -41,7 +41,6 @@
 }
 
 /*____________________Practic____________________*/
-
 .practice .card {
     min-height: 250px;
 }
@@ -55,8 +54,4 @@
 .practice .grid {
     grid-template-columns: 1fr;
     padding: 0 70px;
-}
-
-@media (max-width: 768px) {
-    
 }
