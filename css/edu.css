@@ -20,6 +20,12 @@
     color: #fff;
 }
 
+.edu-page .card a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
 .edu-page .flex h2,
 .practice .grid h2 {
     border-bottom: 2px solid var(--primary-color);
@@ -36,22 +42,27 @@
     text-align: center;
 }
 
+.edu-page .flex > *:last-child {
+    text-align: center;
+    width: 940px;
+}
+
 .edu-page .flex {
     flex-wrap: wrap;
 }
 
-/*____________________Practic____________________*/
-.practice .card {
-    min-height: 250px;
+/*____________________Media Querys____________________*/
+@media (max-width: 1050px) {
+    .edu-page .flex > *:last-child {
+        text-align: center;
+        max-width: 250px;
+    }
 }
 
-.practice .card a {
-    font-weight: bold;
-    color: #000;
-    text-decoration: none;
-}
-
-.practice .grid {
-    grid-template-columns: 1fr;
-    padding: 0 70px;
+/*____________________Tablets & under____________________*/
+@media (max-width: 768px) {
+    .edu-page .flex > *:last-child {
+        text-align: center;
+        max-width: 250px;
+    }
 }
