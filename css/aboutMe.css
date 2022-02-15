@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 30px 0;
+    padding: 20px 0;
     transform: 2s;
 }
 
@@ -80,19 +80,6 @@
     font-size: 70px;
     font-weight: bold;
     color: #fff;
-}
-
-.mySelf h6 {
-    color: var(--font-color-lift);
-}
-
-.mySelf img {
-    z-index: 100;
-}
-
-.mySelf .grid {
-    overflow: visible;
-    min-height: 350px;
 }
 
 /*____________________About Me____________________*/
@@ -231,6 +218,9 @@
 @media (max-width: 768px) {
 
     /*____________________Navbar____________________*/
+    .navbar {
+        height: 200px;
+    }
     .navbar .nav-ul {
         display: none;
         flex-direction: column;
@@ -240,6 +230,7 @@
     .navbar .nav-ul.show {
         display: flex;
         margin: 20px;
+        border-bottom: 2px solid #FFaa01;
     }
 
     .navbar .nav-ul.show li{
