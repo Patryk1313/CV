@@ -97,6 +97,11 @@
     padding: 20px 40px 80px 40px;
 }
 
+.aboutMe .aboutMe-p-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 .aboutMe .grid {
     grid-template-columns: 1fr;
 }
