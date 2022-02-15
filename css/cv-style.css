@@ -52,6 +52,7 @@
 .mySelf {
     height: 450px;
     position: relative;
+    padding: 0 20px;
 }
 
 .mySelf::before,
@@ -259,6 +260,10 @@
 
     .mySelf {
         height: 420px;
+    }
+
+    .mySelf .grid h1 {
+        font-size: 10px;
     }
 
     .mySelf .grid h4,
