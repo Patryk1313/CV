@@ -23,8 +23,7 @@
 }
 
 .btn-copy {
-    height: 22px;
-    width: 20px;
+
     border: 0;
     background: transparent;
     outline: none;
@@ -79,7 +78,7 @@ a:active {
 /*____________________Media Querys____________________*/
 
 /*____________________Mobile____________________*/
-@media (max-width: 340px) {
+@media (max-width: 350px) {
     .contact .grid input{
         min-width: 200px;
         font-size: 13px;
