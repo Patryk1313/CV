@@ -79,15 +79,18 @@ a:active {
 /*____________________Media Querys____________________*/
 
 /*____________________Mobile____________________*/
+@media (max-width: 340px) {
+    .contact .grid input{
+        min-width: 200px;
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 500px) {
     .contact .card {
         min-width: 150px;
     }
 
-    .contact .grid input{
-        min-width: 210px;
-        font-size: 13px;
-    }
 
     .contact {
     padding: 10px;
