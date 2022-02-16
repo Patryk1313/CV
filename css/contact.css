@@ -8,10 +8,10 @@
 }
 
 .contact .grid input{
-    width: 300px;
+    min-width: 250px;
     border: none;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 16px;
     outline: none;
     overflow: visible;
 }
@@ -82,6 +82,9 @@ a:active {
 @media (max-width: 500px) {
     .contact .card {
         min-width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .contact {
