@@ -1,3 +1,5 @@
+@import url(/css/alerts.css);
+
 *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -37,7 +39,6 @@ img {
     background-clip: content-box;
     background-color: #ffaa01;
   }
-
 /*____________________Untilities____________________*/
 
 .container {

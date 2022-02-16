@@ -1,0 +1,33 @@
+.alertInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 100;
+    max-width: 450px;
+    display: none;
+    background-color: #ffaa01;
+}
+
+.closeBtn {
+    width: 20px;
+    height: auto;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 22px;
+    transition: transform 0.3s ease-out;
+}
+
+.closeBtn:hover {
+    transform: scale(1.1);
+}
+  
+.show {
+    display: flex;
+}
