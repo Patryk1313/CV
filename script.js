@@ -6,24 +6,21 @@ const copyText = document.querySelector('#copyEmail')
 btnMenu.addEventListener('click', () => {
     nav.classList.toggle('show')
 })
-
 //Alert
-    let alertInfo = document.createElement('div')
-    let closeBtn = document.createElement('button')
+let alertInfo = document.createElement('div')
+let closeBtn = document.createElement('button')
 
-    closeBtn.classList.add('closeBtn')
-    closeBtn.innerHTML = '<i class="bi bi-x-circle"></i>'
+closeBtn.classList.add('closeBtn')
+closeBtn.innerHTML = '<i class="bi bi-x-circle"></i>'
 
-    alertInfo.classList.add('alertInfo')
-    alertInfo.innerText = "Jeżeli widzisz błędy na stronie poinformuj mnie!"
+alertInfo.classList.add('alertInfo')
+alertInfo.innerText = "Jeżeli widzisz błędy na stronie poinformuj mnie!"
 
-    const body = document.querySelector('body');
-    body.prepend(alertInfo)
+const body = document.querySelector('body');
+body.prepend(alertInfo)
 
-    const x = document.querySelector('.alertInfo')
-    x.appendChild(closeBtn)
-
-
+const x = document.querySelector('.alertInfo')
+x.appendChild(closeBtn)
 
 closeBtn.addEventListener('click', () => {
     document.body.removeChild(x)
@@ -35,9 +32,7 @@ function show() {
 }
 
 setTimeout(show, 5000);
-
-
-
+// Copy clipboard
 copyBtn.addEventListener('click', () => {
     copyText.select();
     document.execCommand('copy')
