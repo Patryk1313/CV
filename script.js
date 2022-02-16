@@ -10,6 +10,7 @@ btnMenu.addEventListener('click', () => {
 copyBtn.addEventListener('click', () => {
     copyText.select();
     document.execCommand('copy')
+    copyText.setSelectionRange(0, 99999)
     copyBtn.innerHTML = "<i class='bi bi-clipboard-check'></i>"
     copyBtn.className = 'coped'
 })
