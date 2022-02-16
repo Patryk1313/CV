@@ -1,4 +1,3 @@
-# Moje CV
 <h1>Na stronie zawarte jest:</h1>
 <ul>
   <li>Informacje o mnie - kim jestesm, moje zainteresowania, cechy osobiste</li>
