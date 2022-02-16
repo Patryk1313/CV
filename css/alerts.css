@@ -31,3 +31,17 @@
 .show {
     display: flex;
 }
+
+/*____________________Media Querys____________________*/
+
+/*____________________Tablets & under____________________*/
+@media (max-width: 768px) {
+    .alertInfo {
+        max-width: auto;
+        font-size: 13px;
+    }
+
+    .closeBtn {
+        font-size: 18px;
+    }
+}
