@@ -1,3 +1,5 @@
+<h3>PL</h3>
+
 <h1>Na stronie zawarte jest:</h1>
 <ul>
   <li>Informacje o mnie - kim jestem, moje zainteresowania, cechy osobiste</li>
@@ -6,7 +8,7 @@
   <li>Informacje kontaktowe</li>
 </ul>
 
-# ENG
+<h3>ENG</h3>
 
 <h1>The website has:</h1>
 <ul>
