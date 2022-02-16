@@ -51,6 +51,7 @@
 .coped i{
     font-size: 21px;
     color: #228b22;
+    cursor: pointer;
 }
 
 .contact .card {
