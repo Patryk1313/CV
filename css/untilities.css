@@ -22,6 +22,22 @@ img {
     border-bottom: 2px solid var(--primary-color);
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 100px;
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+    background-color: #ffaa01;
+  }
+
 /*____________________Untilities____________________*/
 
 .container {
