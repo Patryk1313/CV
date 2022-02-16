@@ -87,12 +87,17 @@ a:active {
 }
 
 @media (max-width: 500px) {
+    .contact {
+    padding: 10px;
+    }
+
     .contact .card {
         min-width: 150px;
     }
 
-
-    .contact {
-    padding: 10px;
+    .contact .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
