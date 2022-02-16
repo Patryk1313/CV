@@ -2,6 +2,7 @@ const btnMenu = document.querySelector('#btnMenu')
 const nav = document.querySelector('.nav-ul')
 const copyBtn = document.querySelector('.btn-copy')
 const copyText = document.querySelector('#copyEmail')
+
 // Responsive Menu
 btnMenu.addEventListener('click', () => {
     nav.classList.toggle('show')
