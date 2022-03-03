@@ -14,7 +14,7 @@ closeBtn.classList.add('closeBtn')
 closeBtn.innerHTML = '<i class="bi bi-x-circle"></i>'
 
 alertInfo.classList.add('alertInfo')
-alertInfo.innerText = "Jeżeli widzisz błędy na stronie poinformuj mnie!"
+alertInfo.innerText = "If you see any errors on the website, please let me know!"
 
 const body = document.querySelector('body');
 body.prepend(alertInfo)
