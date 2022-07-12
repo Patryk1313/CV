@@ -11,7 +11,7 @@
 
 .edu-page .card {
     align-self: flex-start;
-    min-height: 250px;
+    min-height: 320px;
     min-width: 320px; 
     text-align: center;
 }
@@ -26,6 +26,10 @@
     text-decoration: none;
 }
 
+.edu-page .card p {
+    text-align: left;
+}
+
 .edu-page .flex h2,
 .practice .grid h2 {
     border-bottom: 2px solid var(--primary-color);
@@ -35,6 +39,7 @@
 .practice .grid li {
     border-bottom: 1px solid var(--primary-color);
     margin: 10px 0;
+    text-align: left;
 }
 
 .edu-page .flex > *:first-child {
